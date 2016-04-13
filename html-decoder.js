@@ -1,10 +1,10 @@
 /* htmlDecode v1.0.0 @forksofpower */
 if (!String.prototype.htmlDecode) {
     (function() {
-        if (this == null) {
-            throw TypeError();
-        }
         var htmlDecode = function() {
+            if (this == null) {
+                throw TypeError();
+            }
             var map = {"gt":">","amp":"&","lt":"<","apos":"\'"};
             return this.replace(/&(#(?:x[0-9a-f]+|\d+)|[a-z]+);?/gi, function($0, $1) {
                 if ($1[0] === "#") {
