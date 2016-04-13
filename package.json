@@ -1,6 +1,6 @@
 {
   "name": "string.prototype.htmlDecode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tiny module that converts HTML codes",
   "main": "html-decoder.js",
   "scripts": {
