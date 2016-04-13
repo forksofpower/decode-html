@@ -1,6 +1,14 @@
 /* htmlDecode v1.0.0 @forksofpower */
 if (!String.prototype.htmlDecode) {
     (function() {
+        var defineProperty = (function() {
+            try {
+                var object = {};
+                var $defineProperty = Object.defineProperty;
+                var result = $defineProperty(object, object, object) && $defineProperty;
+            } catch(error) {}
+            return result;
+        }());
         var htmlDecode = function() {
             if (this == null) {
                 throw TypeError();
@@ -14,6 +22,14 @@ if (!String.prototype.htmlDecode) {
                 }
             });
         };
-        String.prototype.htmlDecode = htmlDecode;
+        if (defineProperty) {
+            defineProperty(String.prototype, 'htmlDecode', {
+                'value': htmlDecode,
+                'configurable': true,
+                'writable': true
+            });
+        } else {
+            String.prototype.htmlDecode = htmlDecode;
+        }
     }());
 }
