@@ -1,0 +1,19 @@
+{
+  "name": "string.prototype.htmlDecode",
+  "version": "1.0.0",
+  "description": "Tiny module that converts HTML codes",
+  "main": "html-decoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forksofpower/html-decoder.git"
+  },
+  "author": "Patrick Jones (@forksofpower)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/forksofpower/html-decoder/issues"
+  },
+  "homepage": "https://github.com/forksofpower/html-decoder#readme"
+}
