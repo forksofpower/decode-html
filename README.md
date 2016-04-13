@@ -1,2 +1,2 @@
-# decode-html
+# html-decoder
 Tiny module that converts HTML codes 
