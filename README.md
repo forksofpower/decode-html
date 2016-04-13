@@ -18,5 +18,5 @@ Then, in [Node.js](http://nodejs.org/):
 require('string.prototype.htmlDecode');
 ```
 
-# Author
+## Author
 @forksofpower
