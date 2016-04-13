@@ -4,13 +4,22 @@
   "description": "Tiny module that converts HTML codes",
   "main": "html-decoder.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/tests.js"
   },
+  "keywords": [
+    "string",
+    "html",
+    "decode",
+    "prototype"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/forksofpower/html-decoder.git"
   },
-  "author": "Patrick Jones (@forksofpower)",
+  "author": {
+    "name": "Patrick Jones",
+    "url": "https://github.com/forksofpower"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/forksofpower/html-decoder/issues"
