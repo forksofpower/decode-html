@@ -17,6 +17,11 @@ Then, in [Node.js](http://nodejs.org/):
 ```js
 require('string.prototype.htmlDecode');
 ```
+## Usage
+```js
+var string = '&#x3C;div&#x3E;Test&#x3C;/div&#x3E;';
+console.log(string.htmlDecode); // <div>Test</div>
+```
 
 ## Author
 @forksofpower
