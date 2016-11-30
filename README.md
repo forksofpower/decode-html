@@ -1,26 +1,26 @@
-# html-decoder
-Tiny module that converts HTML codes to human readable characters
+# html-entity-decode
+Tiny module that decodes HTML entities to symbols.
 
 ## Installation
 
 In a browser:
 ```html
-<script src="html-decode.js"></script>
+<script src="html-entity-decode.js"></script>
 ```
 
 Via [npm](http://npmjs.org/):
 ```bash
-npm install string.prototype.htmlDecode
+npm install string.prototype.htmlEntityDecode
 ```
 
 Then, in [Node.js](http://nodejs.org/):
 ```js
-require('string.prototype.htmlDecode');
+require('string.prototype.htmlEntityDecode');
 ```
 ## Usage
 ```js
 var string = '&#x3C;div&#x3E;Test&#x3C;/div&#x3E;';
-console.log(string.htmlDecode); // <div>Test</div>
+console.log(string.htmlEntityDecode); // <div>Test</div>
 ```
 
 ## Author

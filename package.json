@@ -1,20 +1,22 @@
 {
-  "name": "string.prototype.htmlDecode",
+  "name": "string.prototype.htmlEntityDecode",
   "version": "1.1.0",
-  "description": "Tiny module that converts HTML codes",
-  "main": "html-decoder.js",
+  "description": "Tiny module that decodes HTML entities to symbols",
+  "main": "html-entity-decode.js",
   "scripts": {
     "test": "node tests/tests.js"
   },
   "keywords": [
     "string",
     "html",
+    "entity",
+    "html entity",
     "decode",
     "prototype"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forksofpower/html-decoder.git"
+    "url": "git+https://github.com/forksofpower/html-entity-decode.git"
   },
   "author": {
     "name": "Patrick Jones",
@@ -22,7 +24,7 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/forksofpower/html-decoder/issues"
+    "url": "https://github.com/forksofpower/html-entity-decode/issues"
   },
-  "homepage": "https://github.com/forksofpower/html-decoder#readme"
+  "homepage": "https://github.com/forksofpower/html-entity-decode#readme"
 }

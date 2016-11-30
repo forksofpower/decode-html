@@ -1,5 +1,5 @@
 /* htmlDecode v1.0.0 @forksofpower */
-if (!String.prototype.htmlDecode) {
+if (!String.prototype.htmlEntityDecode) {
     (function() {
         var defineProperty = (function() {
             try {
@@ -9,7 +9,7 @@ if (!String.prototype.htmlDecode) {
             } catch(error) {}
             return result;
         }());
-        var htmlDecode = function() {
+        var htmlEntityDecode = function() {
             if (this == null) {
                 throw TypeError();
             }
@@ -23,13 +23,13 @@ if (!String.prototype.htmlDecode) {
             });
         };
         if (defineProperty) {
-            defineProperty(String.prototype, 'htmlDecode', {
-                'value': htmlDecode,
+            defineProperty(String.prototype, 'htmlEntityDecode', {
+                'value': htmlEntityDecode,
                 'configurable': true,
                 'writable': true
             });
         } else {
-            String.prototype.htmlDecode = htmlDecode;
+            String.prototype.htmlEntityDecode = htmlEntityDecode;
         }
     }());
 }
