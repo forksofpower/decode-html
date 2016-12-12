@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/forksofpower/html-entity-decode.svg?branch=master)](https://travis-ci.org/forksofpower/html-entity-decode)
 # html-entity-decode
 Tiny module that decodes HTML entities to symbols.
 
