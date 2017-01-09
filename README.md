@@ -2,6 +2,8 @@
 # html-entity-decode
 Tiny module that decodes HTML entities to symbols.
 
+Mainly built to create a modern polyfill template for myself.
+
 ## Installation
 
 In a browser:
